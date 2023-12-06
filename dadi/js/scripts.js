@@ -9,10 +9,10 @@ const giocatore = document.getElementById('giocatore');
 
 giocatore.addEventListener('click', function () {
     const punteggioGiocatore = Math.floor((Math.random() * 6) + 1);
-    alert(nomeGiocatore + 'hai fatto' + punteggioGiocatore)
+    alert(nomeGiocatore + ' hai fatto ' + punteggioGiocatore)
 
     const punteggioPc = Math.floor((Math.random() * 6) + 1);
-    alert( 'Il pc ha fatto' + punteggioPc)
+    alert( ' Il pc ha fatto ' + punteggioPc)
 
 
     if( punteggioGiocatore > punteggioPc){

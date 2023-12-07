@@ -16,9 +16,10 @@ for(let i= 0; i < verifiedEmail.length; i++){
            alert('evvai puoi entrare'); 
          }
          
-         else{
-           alert('ehhhhhh voooleeeviii')
-    }
-     }
+         
+}
+if(email == false){
+  alert('ehhhhhh voooleeeviii')
+}
     
      
